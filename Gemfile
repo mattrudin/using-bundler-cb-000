@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 gem "sinatra"
+gem "pry", :group => "development"
 
 group :development do
 gem "rspec"
-gem "pry"
 gem "hashie"
 gem "sinatra", '1.4.4'
 gem "octokit", '~> 2.0'
