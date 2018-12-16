@@ -1,6 +1,6 @@
 source "https://rubygems.org"
-gem "sinatra"
-gem "pry", :group => :development
+#gem "sinatra"
+gem "pry", group: :development
 
 group :development do
 gem "hashie"
